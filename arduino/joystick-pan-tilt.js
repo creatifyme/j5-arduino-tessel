@@ -3,20 +3,20 @@ var board = new five.Board();
 
 board.on('ready', function() {
     var range = [
-        0,
-        180
+      0,
+      180
     ];
 
     // Servo to control panning
     var pan = new five.Servo({
-        pin: 9,
-        range: range
+      pin: 9,
+      range: range
     });
 
     // Servo to control tilt
     var tilt = new five.Servo({
-        pin: 10,
-        range: range
+      pin: 10,
+      range: range
     });
 
     // Joystick to control pan/tilt
