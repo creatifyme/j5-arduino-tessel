@@ -1,6 +1,6 @@
 {
-  "name": "j5-ardunio-tessel",
-  "version": "0.0.0",
+  "name": "j5-tessel",
+  "version": "1.0.0",
   "description": "stuff is fun",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
     "Tessel"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script."
+  "readme": "Tessel 2 Demos.",
+  "dependencies": {
+    "johnny-five": "^0.9.61",
+    "firebase": "^3.2.1"
+  }
 }
