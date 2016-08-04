@@ -13,6 +13,7 @@
   "license": "MIT",
   "readme": "Arduino Demos.",
   "dependencies": {
+    "firebase": "^3.2.1",
     "johnny-five": "^0.9.61"
   }
 }
